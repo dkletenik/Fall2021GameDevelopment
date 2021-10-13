@@ -35,7 +35,7 @@ public class Movement : MonoBehaviour
         if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
             Flip();
 
-        if (jumpPressed && isGrounded)
+        if (jumpPressed && isGrounded) //only allow Mario to jump if he is on the ground -- no double jumps 
             Jump();
     }
 
@@ -55,9 +55,10 @@ public class Movement : MonoBehaviour
         rigid.velocity = new Vector2(rigid.velocity.x, 0);
         rigid.AddForce(new Vector2(0, jumpForce));
         jumpPressed = false;
-        isGrounded = false;
+        isGrounded = false; 
     }
 
+    //when we collide with the ground (here our ramp), we want to note that Mario is grounded
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
