@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Spawn2();
+        Spawn();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class Spawner : MonoBehaviour
     {
         int xMin = -12;
         int xMax = 10;
-        int yMin = -3;
+        int yMin = -1;
         int yMax = 7;
 
         for (int i = 0; i < NUM_COINS; i++)
