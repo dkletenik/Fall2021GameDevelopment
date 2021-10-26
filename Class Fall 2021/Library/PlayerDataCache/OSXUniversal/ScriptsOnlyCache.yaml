@@ -6,6 +6,8 @@ ScriptsOnlyBuild:
     - ButtonFunctions
     - Coin
     - Movement
+    - PauseResume
+    - PersistentData
     - Scorekeeper
     - Spawner
     Unity.2D.Tilemap.Editor.dll:
@@ -35,8 +37,56 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/highScores.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1518}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 2356}
+    - Class: 114
+      Script: {instanceID: 2462}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2872}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/instructions.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -69,7 +119,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 16824}
+      Script: {instanceID: 4256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -116,6 +166,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1518}
     - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
       Script: {instanceID: 1524}
     - Class: 114
       Script: {instanceID: 1714}
@@ -130,9 +182,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2630}
     - Class: 114
+      Script: {instanceID: 2872}
+    - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 3960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,6 +239,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1518}
     - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
       Script: {instanceID: 1524}
     - Class: 114
       Script: {instanceID: 1714}
@@ -197,9 +255,86 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2630}
     - Class: 114
+      Script: {instanceID: 2872}
+    - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 3960}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Scenes/level3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1518}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 1524}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 2356}
+    - Class: 114
+      Script: {instanceID: 2462}
+    - Class: 114
+      Script: {instanceID: 2510}
+    - Class: 114
+      Script: {instanceID: 2628}
+    - Class: 114
+      Script: {instanceID: 2630}
+    - Class: 114
+      Script: {instanceID: 2872}
+    - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
+      Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 3960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -250,9 +385,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2628}
     - Class: 114
+      Script: {instanceID: 2666}
+    - Class: 114
       Script: {instanceID: 2872}
     - Class: 114
-      Script: {instanceID: 16824}
+      Script: {instanceID: 4256}
+    - Class: 114
+      Script: {instanceID: 16542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -692,7 +831,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 00c0c61e55c4c030d609d5dc9c518ba0
+      Hash: 6a5fb56c79692ae82bf2ec56953352fd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Scorekeeper
@@ -1190,6 +1329,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseResume
+  - hash:
+      serializedVersion: 2
       Hash: 4bd1cc3c85989d2213a9a8fd9d09e63f
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -1254,6 +1399,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Cameras
     className: LookatTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 56a48eaace5d1afe2625633bb61e7ec3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonFunctions
   - hash:
       serializedVersion: 2
       Hash: a909505c7e9870f1ee552a40f203397a
@@ -1322,14 +1473,16 @@ ScriptsOnlyBuild:
     className: SimpleActivatorMenu
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 1c1e37d1af2a6994e919a14cb5b68adf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ButtonFunctions
+    className: PersistentData
   platform: 2
   scenePathNames:
   - Assets/Scenes/menu.unity
   - Assets/Scenes/instructions.unity
   - Assets/Scenes/level1.unity
   - Assets/Scenes/level2.unity
+  - Assets/Scenes/level3.unity
+  - Assets/Scenes/highScores.unity
   playerPath: /Users/DK 1/Documents/GitHub/Fall2021GameDevelopment/Class Fall 2021/classFall21.app

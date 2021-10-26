@@ -46,6 +46,12 @@ public class PauseResume : MonoBehaviour
 
     public void mainMenu()
     {
+        PersistentData.Instance.SetIndex(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene("menu");
+    }
+
+    public void HighScores()
+    {
+        SceneManager.LoadScene("highScores");
     }
 }
