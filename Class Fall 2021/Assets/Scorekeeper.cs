@@ -25,9 +25,13 @@ public class Scorekeeper : MonoBehaviour
         score = PersistentData.Instance.GetScore();
 
         score_threshold = level * NUM_POINTS_PER_LEVEL;
+        PersistentData.Instance.SetIndex(level + 1);
+
         DisplayName();
         DisplayLevel();
         DisplayScore();
+
+
 
     }
 
