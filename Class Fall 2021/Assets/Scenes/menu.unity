@@ -376,6 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   playerName: 
+  currentLevelIndex: 0
 --- !u!4 &308312553
 Transform:
   m_ObjectHideFlags: 0
@@ -572,6 +573,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 125513238}
+  gameButton: {fileID: 1541733548}
+  index: 0
 --- !u!1 &979412852
 GameObject:
   m_ObjectHideFlags: 0
